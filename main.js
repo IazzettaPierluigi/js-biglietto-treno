@@ -17,6 +17,8 @@ if (etaUser < 18){
     document.writeln(costoBigl -= under18)
 } else if (etaUser > 65) {
     document.writeln(costoBigl -= over65)
+} else {
+    document.writeln(costoBigl)
 }
 
 // document.writeln(costoBigl)
